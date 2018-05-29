@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,700,800');
+
+@import url('https://fonts.googleapis.com/css?family=Gugi');
+
+* { margin: 0; padding: 0;}
+html, body { 
+  width: 100%;
+  height: 100%;
+  font-family: 'Helvetica Neue', 'Montserrat', 'Russo One';  
+  background: white;
+  color: black;
+}
+header, nav, content, aside, footer { display: block;}
+
+header { width: 100%; height: 70px; background: white;}
+content { margin-left: 5%; width: 86.7%;}
+
+aside { }
+
+footer { height: 70px; margin-left: 5%; width: 86.7%; } 
+
+/* Semantic Elements : 2nd*/
+content section { width: 100%; height: auto; display: flex;}
+button { padding-left: 20px; padding-right: 20px; padding-top: 5px; padding-bottom: 5px; border-radius: 3px; background: pink; }
+nav a { color: black; text-decoration: none;}
+nav a:hover { text-decoration: underline; }
+nav { margin-left: 5%; width: 90%; height: 100%; display: flex; }
+/* Div Elements : Navigation. p.s. elements wrapping in nav*/
+.navbar_left { width: 50%; height: 100%; padding-top: 1.5%;}
+.navbar_right { width: 50%; height: 100%; padding-top: 1.5%;}
+/* ws - website. now, Pascal*/
+.ws-name { padding-top: 10px; padding-bottom: 10px; padding-left: 5px; padding-right: 5px; font-size: 16px; background: pink;}
+.ws-name:hover { background: darkslategray;}
+.visible-navigation { margin-left: 30%;}
+
+/* Lists */
+ul ul li { margin-left: 22px;}
